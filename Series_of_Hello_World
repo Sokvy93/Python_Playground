@@ -57,5 +57,3 @@ print(answer)
 #Slicing list
 l1 = ["I", "Love", "You", "Hello", "World"]
 l1[3:5]
-
-
