@@ -1,0 +1,5 @@
+print('The {} {} {} {}'.format('world', 'great', 'coding', 'is')
+
+print('The {2} {0} {3} {1}'.format('world', 'great', 'coding', 'is')
+
+print('The {c} {w} {i} {g}'.format(w='world', g='great', c='coding', i='is')
