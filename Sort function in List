@@ -1,0 +1,6 @@
+#Sort function sorts indexes within assigned list. 
+
+al_list = [F,D,C,A,E,B]
+al_list.sort()
+
+#It will alphabetically sort the indexes.
