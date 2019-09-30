@@ -1,0 +1,9 @@
+#Creating function
+
+def name_of_function():
+  "'
+  Docstring explains function.
+  '"
+  print("Hello")
+  
+  
