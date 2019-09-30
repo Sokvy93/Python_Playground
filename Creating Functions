@@ -4,6 +4,20 @@ def name_of_function():
   '''
   Docstring explains function.
   '''
-  print("Hello")
+  return "Hello"   #use return instead of print since return lets you assign the fuction with result. Print doesnt. 
   
   
+#Simple example
+
+def dog_check(mystring):
+  if 'dog' in mystring.lower():
+    return True
+  else:
+    return False
+#This is a beginner move. x in y.lower() is already a boolean.
+
+dog_check('Dog ran away')
+
+#Expert move:
+def dog_check(mystring):
+  return 'dog' in mystring.lower()
