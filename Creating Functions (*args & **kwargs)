@@ -4,7 +4,7 @@ def name_of_function():
   '''
   Docstring explains function.
   '''
-  return "Hello"   #use return instead of print since return lets you assign the fuction with result. Print doesnt. 
+  return "Hello"   #use return instead of print since return can be stored as a variable.
   
   
 #Simple example
@@ -21,3 +21,11 @@ dog_check('Dog ran away')
 #Expert move:
 def dog_check(mystring):
   return 'dog' in mystring.lower()
+
+
+# *args
+def myfunc(*args):              #instead of myfunc(a,b,c,...) no limit of arguments and it will be treated as tuples.
+  return sum(args) * 0.05
+  
+myfunc(14,10,100)
+
