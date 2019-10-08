@@ -45,3 +45,21 @@ def myfunc(*args, **kwargs):
   print('I would like {} {}'.format(args[0], kwargs['food']))
   
 myfunc(10,20,30,fruit='orange',food='eggs',animal='dog')
+
+
+
+##BONUS Project
+#Define a function called myfunc that takes in a string, and returns a matching string where every even letter is uppercase, n/
+#and every odd letter is lowercase.
+
+def myfunc(word):
+
+  result = ""
+  for index, letter in enumerate(word):
+    if index % 2 == 0:
+      result += letter.lower()
+    else:
+      result += letter.upper()
+  return result
+  
+myfunc('VictoriaSok')
