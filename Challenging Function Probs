@@ -64,10 +64,6 @@ def summer_69(arr):
     return total
     
     
-    
-    def animal_crackers(text):
-    wordlist = text.split()
-    return wordlist[0][0] == wordlist[1][0]
 
 
  def animal_crackers(text):
