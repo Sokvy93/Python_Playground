@@ -53,3 +53,10 @@ for n in filter(check_even,list_nums)
 lambda num: num ** 2          #This is equal to 
                               #def square(num):
                                 #return num ** 2
+list(map(lambda num: num ** 2, list_nums))
+
+list(filter(lambda num: num % 2 == 0, list_nums))
+
+list(map(lambda name: name[0], names))
+
+##NOTE: Only uselambda expression for something that can be easily coded
