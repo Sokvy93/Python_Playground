@@ -10,3 +10,17 @@ for i in map(square, nums_list):
 ##other way, to get the list back
 
 list(map(square,nums_list))
+
+
+
+##String 
+
+def slicer(mystring):
+  if len(mystring)%2 == 0:
+    return 'EVEN'
+  else:
+    return mystring[0]
+
+names = ['Tori', 'David', 'Ann', 'Jesus']
+
+lsit(map(slicer,names))
