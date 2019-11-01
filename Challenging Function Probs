@@ -41,9 +41,9 @@ def print_big(letter):
         
         
         
+--------------------------------------------------
 
-
-###Summer 69
+### Summer 69 ###
 
 def summer_69(arr):
     total = 0
@@ -63,8 +63,28 @@ def summer_69(arr):
                 break
     return total
     
-    
+#OR
 
+def summer_69(arr):
+    
+    total = 0
+    add = True
+    
+    for num in arr:
+        if add:
+            if num != 6:
+                total += num
+            else:
+                add = False
+        else:
+            if num == 9:
+                add = True
+    return total
+    
+    
+#The second way is better one since in professional people tend to use while loop for something they do not want to stop 
+#until they get the outcome they want or til the condition is met and return some value or simply print something out. 
+-----------------------------------------------
 
  def animal_crackers(text):
     wordlist = text.split()
