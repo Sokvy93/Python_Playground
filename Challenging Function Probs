@@ -1,4 +1,4 @@
-#007 Game
+### 007 Game ###
 
 def spy_game(nums):
 
@@ -11,7 +11,7 @@ def spy_game(nums):
   return len(code) == 1
 
 
-
+---------------------------------------------------------
 
 
 def count_primes(num):
@@ -30,6 +30,8 @@ def count_primes(num):
     print(primes)
     return len(primes)
 
+
+---------------------------------------------------------
 
 
 
