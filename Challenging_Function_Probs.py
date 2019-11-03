@@ -1,4 +1,5 @@
 ### 007 Game ###
+#If there is 007 in such array, return True
 
 def spy_game(nums):
 
@@ -46,6 +47,7 @@ def print_big(letter):
 --------------------------------------------------
 
 ### Summer 69 ###
+#Within such array, do not add 6 and 9 and numbers inbetween. If there is a 6, it always ends with a 9
 
 def summer_69(arr):
     total = 0
