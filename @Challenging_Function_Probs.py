@@ -1,19 +1,3 @@
-### 007 Game ###
-#If there is 007 in such array, return True
-
-def spy_game(nums):
-
-  code = [0,0,7,'x']
-  
-  for i in nums:
-    if num == code[0]:
-      code.pop(0)
-      
-  return len(code) == 1
-
-
----------------------------------------------------------
-
 
 def count_primes(num):
     primes = [2]
