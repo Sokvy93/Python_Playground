@@ -25,3 +25,18 @@ def spy_game(nums):
 #determine ("(ha[ok999])")---> True
 #determine ("{[ ]}")---> True
 #determine ("{[ }]")---> False
+
+def enclosed(str):
+  stackArr = ['dummy']
+  for char in str:
+    if char == '[' :
+      stackArr.append(']')
+    elif char == '(' :
+      stackArr.append(')')
+    elif char == '{' :
+      stackArr.append('}')
+    elif char == ')' or char == ']' or char == '}' :
+      if stackArr[-1] == char:      #arr[-1] will return the very last element
+        stackArr.pop()
+      else:
+        return 'not enclosed'
