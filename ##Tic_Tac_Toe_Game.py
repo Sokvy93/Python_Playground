@@ -33,5 +33,8 @@ def player_input():
     player2 == 'X'
   
   return (player1,player2)
-    
-  
+
+#Set it as a tuple so it will show which player has which marker later on. 
+player1_marker, player2_marker = player_input()
+
+
