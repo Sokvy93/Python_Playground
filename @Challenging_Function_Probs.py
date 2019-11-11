@@ -57,7 +57,13 @@ def summer_69(arr):
             if num == 9:
                 add = True
     return total
-    
+
+
+summer_69([1,2,3,4,5,6,7,8,9,10])
+summer_69([4,6,8,9,7])
+summer_69([2,4,3])
+summer_69([3,6,9,4,5])
+
     
 #The second way is better one since in professional people tend to use while loop for something they do not want to stop 
 #until they get the outcome they want or til the condition is met and return some value or simply print something out. 
