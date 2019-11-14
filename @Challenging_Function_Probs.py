@@ -69,6 +69,8 @@ summer_69([3,6,9,4,5])
 #until they get the outcome they want or til the condition is met and return some value or simply print something out. 
 -----------------------------------------------
 
+#Comes back with first letter
+
  def animal_crackers(text):
     wordlist = text.split()
     return wordlist[0][0] == wordlist[1][0]
