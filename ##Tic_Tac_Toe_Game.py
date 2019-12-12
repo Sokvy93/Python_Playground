@@ -13,7 +13,6 @@ def display_board(board):
   
   
   
-  
 #To write a function that can take in a player input and assign their markers as 'X' or 'O'.
 #Think about using while loops to continually ask until you get a correct answer.
 
