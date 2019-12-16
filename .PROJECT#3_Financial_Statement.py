@@ -7,7 +7,6 @@ profit = list([])    #Make a variable called profit which is an empty list.
 
 for i in range(0, len(revenue)):   #Do work while in the range of the length of the list.
     profit.append(revenue[i] - expenses[i])  #.append function adds whatever the result into the list
-    
 print(profit)
 
 #Calculate Tax As 30% Of Profit And Round To 2 Decimal Points (profit x 30%)
