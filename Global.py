@@ -9,7 +9,6 @@ def func():
   x = 'NEW VALUE'
   print(f'I just locally changed global X to {x})
   
-  
 
 
 ### Safer and cleaner path ###
